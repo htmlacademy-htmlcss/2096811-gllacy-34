@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/inter-400.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/inter-700.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/inter-900.woff2) format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "Inter", "sant-serif";
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D3440;
+    background: #FEAFC3;
+}
+
+.navigation-link {
+    line-height: 20px;
+    font-weight: 400;
+    color: #2D3440;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navigation-user-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #2D3440;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-link-phone {
+    font-weight: 700;
+    line-height: 24px;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+.slider-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.slider-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button {
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-main {
+    color: #2D3440;
+}
+
+.title-main {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.gift-list {
+    background: #FF7799;
+    text-align: left;
+}
+
+.gift-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.gift-discription {
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.gift-item-raspberry {
+    background-image: url("../images/raspberry.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+.gift-item-marshmallow {
+    background-image: url("../images/marsmellow.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}

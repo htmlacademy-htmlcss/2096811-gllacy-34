@@ -76,6 +76,10 @@ body {
     color: #2D3440;
 }
 
+.button-other {
+    color:#FCFCFC ;
+}
+
 .title-main {
     font-weight: 900;
     font-size: 32px;
@@ -109,4 +113,174 @@ body {
     background-image: url("../images/marsmellow.png");
     background-repeat:no-repeat;
     background-position: right;
+}
+
+.product-img img {
+    border-radius: 100px;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-descript {
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.advantages {
+    background-image: url(../images/wafer.jpg);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.advantages-container {
+    background: #FFFFFF;
+    padding-top: 56px;
+    padding-left: 40px;
+    padding-right: 56px;
+    padding-bottom: 40px;
+    border-radius: 16px;
+}
+
+.advantages-list {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+    text-align: left;
+}
+
+.news {
+    background-image: url(../images/blog.jpg);
+    border-radius: 16px;
+    ;
+}
+
+.header-news {
+    font-weight: 400;
+    line-height: 20px;
+    color: #565C66;
+}
+
+.news-link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+.subscription {
+    background-image: url(../images/subscription.png);
+    border-radius: 16px;
+    padding: 6px;
+}
+
+.subscription-container {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 26px;
+}
+
+.subscription-discription {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+    text-align: left;
+}
+
+.form-input {
+    color: #B9B9B9;
+}
+
+.appointment {
+    background-image: url(../images/delivery.jpg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.appointment-form {
+    background: #FCFCFC;
+    border-radius: 8px;
+}
+
+
+.appointment-form label {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.contacts {
+    background-image: url(../images/address.jpg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts-text {
+    color: #565C66;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contacts-address {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contacts-phone {
+    font-weight: 700;
+    font-size: 20px;
+    color:#2D3440 ;
+    text-decoration: none;
+}
+
+.footer-information-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:#2D3440 ;
+    text-decoration: none;
+}
+
+.footer-information-link-like {
+    font-weight: 700;
+}
+
+.footer-copyright-text a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color:#2D3440;
+}
+.breadcrumbs-item a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color:#2D3440;
+}
+
+.catalog-filter-group h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pagination-link {
+    font-weight: 400;
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
 }

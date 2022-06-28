@@ -126,6 +126,7 @@ body {
 .gift-list {
     background: #FF7799;
     text-align: left;
+    display: grid;
 }
 
 .gift-title {
@@ -134,6 +135,11 @@ body {
     line-height: 30px;
 }
 
+.gift-item {
+    width: 570px;
+    margin: 0;
+    padding: 0;
+}
 .gift-discription {
     font-weight: 400;
     line-height: 22px;
@@ -153,6 +159,8 @@ body {
 
 .product-img img {
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .product-title {
@@ -170,6 +178,16 @@ body {
 .product-price {
     font-weight: 700;
     font-size: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.product-item {
+    width: 270px;
 }
 
 .advantages {
@@ -320,3 +338,26 @@ body {
     color: #2D3440;
     text-decoration: none;
 }
+
+.navigation {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 555px;
+}
+
+.navigation-user {
+    max-width: 440px;
+    margin-left: auto;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+}
+

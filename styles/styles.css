@@ -348,16 +348,33 @@ body {
     text-decoration: none;
 }
 
+.page-header {
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.logo {
+   width: 137px;
+}
+
 .navigation {
     display: flex;
-    width: 1170px;
-    margin: 0 auto;
+}
+
+.navigation-link-phone {
+    width: 148px;
+    height: 20px;
+    margin-right: 16px;
 }
 
 .navigation-list {
     margin: 0;
     padding: 0;
     width: 555px;
+    display: flex;
+
 }
 
 .navigation-user {

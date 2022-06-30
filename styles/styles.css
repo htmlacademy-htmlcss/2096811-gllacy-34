@@ -95,11 +95,15 @@ body {
     font-weight: 900;
     font-size: 36px;
     line-height: 46px;
+    width: 470px;
+    height: 92px;
 }
 
 .slider-text {
     font-weight: 400;
     font-size: 18px;
+    width: 414px;
+    height: 72px;
 }
 
 .button {
@@ -174,7 +178,9 @@ body {
 .product-descript {
     font-weight: 400;
     line-height: 22px;
+    width: 190px;
     text-align: center;
+    margin: 40px;
 }
 
 .product-price {
@@ -183,7 +189,8 @@ body {
 }
 
 .product-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
     justify-content: space-between;
     margin: 0;
     padding: 0;
@@ -196,6 +203,7 @@ body {
     background-image: url("../images/wafer.jpg");
     border-radius: 16px;
     padding: 24px;
+    background-size: cover;
 }
 
 .advantages-container {
@@ -351,12 +359,14 @@ body {
 .page-header {
     width: 1170px;
     display: flex;
-    flex-direction: row;
     margin: 0 auto;
 }
 
 .logo {
    width: 137px;
+   height: 56px;
+   display: inline-block;
+   flex-shrink: 0;
 }
 
 .navigation {
@@ -417,3 +427,40 @@ body {
     width: 193px;
     height: 57px;
 }
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.slider-social {
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-thumbnail-item {
+    width: 306px;
+    height: 507px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.filter {
+    width: 823px;
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-filter-group {
+    display: flex;
+}
+
+.catalog-filter-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+

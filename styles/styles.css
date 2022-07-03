@@ -58,6 +58,13 @@ img {
     clip-path: inset(100%);
 }
 
+.list-reset {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
 body {
     font-family: "Inter", "sant-serif";
     font-size: 16px;
@@ -178,11 +185,14 @@ body {
 .product-descript {
     font-weight: 400;
     line-height: 22px;
-    width: 190px;
     text-align: center;
-    margin: 40px;
 }
 
+.product-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+}
 .product-price {
     font-weight: 700;
     font-size: 20px;
@@ -190,13 +200,13 @@ body {
 
 .product-list {
     display: grid;
-    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     margin: 0;
     padding: 0;
 }
 .product-item {
-    width: 270px;
+    padding-top: 150px;
 }
 
 .advantages {
@@ -464,3 +474,17 @@ body {
     
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.pagination-container {
+    position: absolute;
+    right: 98px;
+}
+
+.pagination-list {
+    display: flex;
+}

@@ -416,6 +416,12 @@ padding-left: 60px;
     grid-template-columns: 117px 1fr;
 }
 
+.appointment-form .button-other {
+grid-column:  1/-1;
+margin: 6px auto 0;
+margin-bottom: 54px;
+}
+
 .appointment-form-address {
     grid-column: 1/-1;
 }

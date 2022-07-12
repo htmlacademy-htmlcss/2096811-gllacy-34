@@ -79,7 +79,52 @@ body {
     color: #2D3440;
     text-align: center;
     text-decoration: none;
+}
 
+.navigation-link:hover {
+    background-color: #FCFCFC80;
+}
+
+.navigation-link:active {
+    background-color: #FCFCFC ;
+}
+
+.navigation-link:focus {
+    background-color: #FCFCFC;
+}
+
+.navigation-link:current {
+    background-color: #FF4A78 ;
+}
+
+.navigation-icon {
+    margin-left: 6px;   
+}
+
+.navigation-user-item {
+    background: #FCFCFC4D;
+    border-radius: 30px;
+}
+
+.navigation-user-search {
+    width: 32px;
+    height: 32px;
+}
+
+.navigation-user-item:hover {
+    background: #FCFCFC80;
+}
+
+.navigation-user-item:active {
+    background: #FCFCFC;
+}
+
+.navigation-user-item:focus {
+    background: #FCFCFC80;
+}
+
+.navigation-user-item:current {
+    background: #FF4A78;
 }
 
 .navigation-user {
@@ -100,6 +145,9 @@ body {
     line-height: 24px;
     color: #2D3440;
     text-decoration: none;
+    margin-right: 16px;
+    margin-left: auto;
+    margin-top: 42px;
 }
 
 .navigation {
@@ -107,13 +155,11 @@ body {
     width: 100%;
 }
 
-.navigation-link-phone {
-    margin-left: auto;
-}
-
 .navigation-list {
     max-width: 1170px;
     display: flex;
+    gap: 16px;
+    margin-top: 42px;
 }
 
 .slider-title {
@@ -135,14 +181,23 @@ body {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
+    padding-top: 12px;
+    padding-left: 32px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+    border-radius: 26px;
 }
 
 .button-main {
     color: #2D3440;
+    outline: 4px solid rgba(252, 252, 252, 0.4);
+    background: #FCFCFC;
 }
 
 .button-other {
     color: #FCFCFC;
+    outline: 4px solid rgba(255, 47, 100, 0.3);
+    background: #FF2F64;
 }
 
 .title-main {
@@ -270,7 +325,7 @@ body {
 }
 
 .advantage-item {
-padding-left: 40px;
+padding-left: 60px;
 }
 .news {
     background-image: url("../images/blog.jpg");
@@ -485,6 +540,8 @@ padding-left: 40px;
    height: 56px;
    display: inline-block;
    flex-shrink: 0;
+   margin-top: 24px;
+   margin-right: 16px;
 }
 
 .main {
@@ -502,6 +559,10 @@ padding-left: 40px;
 .slider {
     justify-content: space-between;
     padding: 70px;
+}
+
+.slider-text {
+    margin-bottom: 48px;
 }
 
 .slider-container {
@@ -598,4 +659,24 @@ padding-left: 40px;
     border: none;
     border-radius: 50%;
     outline: 2px solid rgba(252, 252, 252, 0.3);
+  }
+
+  .advantage-item-production {
+    background-image: url(../images/icon/icecream.svg);
+    background-repeat: no-repeat;  
+  }
+
+  .advantage-item-ingredients {
+    background-image: url(../images/icon/cow.svg);
+    background-repeat: no-repeat;
+  }
+
+  .advantage-item-natural {
+    background-image: url(../images/icon/leaf.svg);
+    background-repeat: no-repeat;
+  }
+
+  .advantage-item-dilivery {
+    background-image: url(../images/icon/thermometer.svg);
+    background-repeat: no-repeat;
   }

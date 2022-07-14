@@ -148,6 +148,7 @@ body {
 
 .form-input::placeholder {
   color: #b9b9b9;
+  opacity: 1;
 }
 
 .form-input:hover {
@@ -1212,6 +1213,7 @@ body {
 .advantages {
   padding: 24px;
 
+  background-color: #ffffff;
   background-image: url("../images/wafer.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1303,6 +1305,7 @@ body {
   height: 100%;
   padding: 6px;
 
+  background-color: #ffffff;
   background-image: url("../images/subscription.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1487,6 +1490,7 @@ body {
 .contacts {
   padding: 64px;
 
+  background-color: #ffffff;
   background-image: url("../images/address.jpg");
   background-repeat: no-repeat;
   background-position: center;
